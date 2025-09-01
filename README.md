@@ -74,7 +74,7 @@ Puedes subir imágenes a la carpeta `/docs/images` del repositorio y referenciar
 
 ## 📂 Estructura del proyecto
 
-```
+```bash
 ├───docs
 │   └───images
 ├───public
