@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(73, 118, 118); /* gris más suave */
+    color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #3a3a4d !important;
+}
+
+.navbar a {
+    color: #f0f0f0 !important;
+}
+
+.navbar a:hover {
+    color: #4db6ac !important;
+}
+
+/* Botón "Create Product" */
+.btn-create {
+    background-color: #42a5f5; /* azul suave */
+    border: none;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.card {
+    background-color: #3a3a4d;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.card-title, .card-text {
+    color: #f0f0f0;
+}
+
+.btn-primary {
+    background-color: #4db6ac;
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #26a69a;
+}
+
+/* Tabla */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #3d3d50; /* gris más claro que el body */
+    color: #f0f0f0;
+}
+
+.table thead {
+    background-color: #4a4a60; /* encabezado más definido */
+    color: #fff;
+    font-weight: bold;
+}
+
+.table tbody tr:hover {
+    background-color: #5a5a75; /* efecto hover más suave */
+    transition: background 0.2s;
+}
+
+input, select, textarea {
+    background-color: #3a3a4d !important;
+    color: #f0f0f0 !important;
+    border: 1px solid #666 !important;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #4db6ac !important;
+    box-shadow: none !important;
+}
