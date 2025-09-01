@@ -100,3 +100,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ## 👨‍💻 Autor
 Proyecto desarrollado por **Omar Pedraza** como parte de práctica en **Spring Boot + Thymeleaf**.
+
+## 📜 Licencia
+Este proyecto está bajo la licencia [MIT](LICENSE).  
+Eres libre de usarlo, modificarlo y distribuirlo con fines personales o educativos.
