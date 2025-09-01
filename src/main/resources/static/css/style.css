@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(73, 118, 118); /* gris más suave */
+    background-color: rgb(73, 146, 146); /* fondo más suave */
     color: #f0f0f0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -27,10 +27,8 @@ body {
 }
 
 .card {
-    background-color: #3a3a4d;
-    border: none;
-    border-radius: 12px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    background-color: #ffffff !important; /* fuerza el card en blanco */
+    border: 1px solid #ddd;
 }
 
 .card-title, .card-text {
@@ -47,29 +45,40 @@ body {
     background-color: #26a69a;
 }
 
-/* Tabla */
+
+/* Tabla de productos */
 .table {
     border-radius: 10px;
     overflow: hidden;
-    background-color: #3d3d50; /* gris más claro que el body */
-    color: #f0f0f0;
+    background-color: #fafafa; /* fondo casi blanco */
+    color: #333; /* texto oscuro para mejor lectura */
+    border: 1px solid #ddd; /* borde sutil */
 }
 
 .table thead {
-    background-color: #4a4a60; /* encabezado más definido */
+    background-color: #4db6ac; /* encabezado con color destacado */
     color: #fff;
     font-weight: bold;
 }
 
+.table tbody tr {
+    background-color: #ffffff; /* filas claras */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* alterna un gris muy claro */
+}
+
 .table tbody tr:hover {
-    background-color: #5a5a75; /* efecto hover más suave */
+    background-color: #e6f7f5; /* hover en un verde-agua muy suave */
     transition: background 0.2s;
 }
 
+
 input, select, textarea {
-    background-color: #3a3a4d !important;
-    color: #f0f0f0 !important;
-    border: 1px solid #666 !important;
+    background-color: #f5f5f5 !important;
+    color: #333 !important;
+    border: 1px solid #bbb !important;
 }
 
 input:focus, select:focus, textarea:focus {
