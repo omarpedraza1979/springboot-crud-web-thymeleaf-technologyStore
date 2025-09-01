@@ -52,7 +52,7 @@ spring.jpa.hibernate.ddl-auto=update
 _Añade aquí imágenes de la aplicación para ilustrar el CRUD._  
 Puedes subir imágenes a la carpeta `/docs/images` del repositorio y referenciarlas así en el README:
 
-```markdown
+
 **Pantalla principal**
 
 ![Pantalla principal](https://raw.githubusercontent.com/omarpedraza1979/springboot-crud-web-thymeleaf-technologyStore/main/docs/images/inicio.png)
